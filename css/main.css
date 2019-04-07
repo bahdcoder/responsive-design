@@ -31,7 +31,7 @@ body {
     border: 0.125rem solid #0B41CD;
     color: #0B41CD;
     border-radius: 0.25rem;
-    padding: 0.5rem 1rem;
+    padding: 0.8rem 2rem;
     font-weight: 500;
 }
 
@@ -170,6 +170,32 @@ body {
     color: rgba(0, 0, 0, 0.37);
 }
 
+.hero-2 {
+    padding: 2rem;
+    display: flex;
+}
+
+.hero-2-image {
+    display: none;
+    width: 40%;
+    height: 50%;
+    padding: 0 4rem;
+}
+
+.hero-2-content {
+    padding: 4rem 4rem 4rem 0rem;
+}
+
+.hero-2-content-title {
+    font-size: 2rem;
+}
+
+.hero-2-description {
+    color: #6E6B6B;
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+}
+
 @media (min-width: 1024px) {
     .hero {
         flex-wrap: nowrap;
@@ -223,5 +249,18 @@ body {
 
     .featured-articles-list {
         flex-wrap: nowrap;
+    }
+
+    .hero-2 {
+        padding: 8rem;
+    }
+
+    .hero-2-image {
+        display: block;
+    }
+
+
+    .hero-2-content-title {
+        font-size: 3rem;
     }
 }
