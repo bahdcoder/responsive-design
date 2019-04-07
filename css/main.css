@@ -35,6 +35,63 @@ body {
     font-weight: 500;
 }
 
+.login-button:focus {
+    outline: none;
+}
+
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 2rem;
+}
+.hero-content {
+    width: 100%;
+}
+
+.hero-image {
+    width: 100%;
+    margin-top: 4rem;
+    /* display: none; */
+}
+
+.hero-description {
+    font-family: 'The Girl Next Door';
+    color: #786F6F;
+    font-size: 1.5rem;
+    margin: 3rem 0rem;
+}
+
+.hero-button {
+    color: #fff;
+    background-color: #0B41CD;
+    border-radius: 0.25rem;
+    padding: 1rem 2rem;
+}
+
+.hero-button:focus {
+    outline: none;
+}
+
 @media (min-width: 1024px) {
-    
+    .hero {
+        flex-wrap: nowrap;
+        padding: 8rem;
+    }
+
+    .hero-content {
+        width: 50%;
+    }
+
+    .hero-image {
+        width: 50%;
+        margin-top: 0rem;
+        margin-left: 4rem;
+        /* display: block; */
+    }
+
+    .hero-title {
+        font-size: 3.5rem;
+    }
 }
