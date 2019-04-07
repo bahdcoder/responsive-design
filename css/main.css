@@ -74,6 +74,44 @@ body {
     outline: none;
 }
 
+.community {
+    background-color: #FAFAFA;
+    padding: 2rem;
+}
+
+.community-title {
+    text-align: center;
+    font-size: 1.7rem;
+    line-height: 2rem;
+}
+
+.testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.testimonial-text {
+    color: rgba(0, 0, 0, 0.4);
+    font-style: italic;
+}
+
+.testimonial-quote {
+    width: 2rem;
+    height: 2rem;
+}
+
+.testimonial-author {
+    margin: 0;
+    color: rgba(0, 0, 0, 0.8);
+    font-style: italic;
+}
+
+.testimonial-location {
+    color: rgba(0, 0, 0, 0.4);
+    font-style: italic;
+}
+
 @media (min-width: 1024px) {
     .hero {
         flex-wrap: nowrap;
@@ -93,5 +131,23 @@ body {
 
     .hero-title {
         font-size: 3.5rem;
+    }
+
+    .community {
+        padding: 8rem;
+    }
+
+    .community-title {
+        text-align: center;
+        font-size: 2.5rem;
+        line-height: 4rem;
+    }
+
+    .testimonials {
+        flex-wrap: nowrap;
+    }
+
+    .testimonial {
+        padding: 0 2rem;
     }
 }
