@@ -1,9 +1,40 @@
 body {
-    background-color: red;
+    font-family: Alegreya;
+}
+.navbar {
+    /* height: 101px; */
+    width: 100%;
+    box-shadow: 0 0.125rem 0.25rem rgba(146, 143, 143, 0.25);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 1.8rem;
+    box-sizing: border-box;
+}
+
+.logo{ 
+    font-weight: 700;
+    display: flex;
+    font-size: 2rem;
+
+    align-items: center;
+}
+
+.logo-icon {
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.login-button {
+    background-color: transparent;
+    border: 0.125rem solid #0B41CD;
+    color: #0B41CD;
+    border-radius: 0.25rem;
+    padding: 0.5rem 1rem;
+    font-weight: 500;
 }
 
 @media (min-width: 1024px) {
-    body {
-        background-color: green;
-    }
+    
 }
