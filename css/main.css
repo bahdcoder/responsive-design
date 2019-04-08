@@ -264,6 +264,76 @@ body {
     position: absolute;
 }
 
+.footer {
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-top: 0.03rem solid rgba(0, 0, 0, 0.79);
+}
+
+.footer .logo, .help, .social-media {
+    width: 100%;
+    text-align: center;
+}
+
+.footer .logo {
+    display: flex;
+    justify-content: center;
+}
+
+.help {
+    margin: 0;
+}
+
+.help-title {
+    font-size: 1.6rem;
+    margin: 1.5rem;
+}
+
+.help-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.help-list-item {
+    margin: 0.8rem 0rem;
+    font-size: 1.2rem;
+    color: rgba(0, 0, 0, 0.42);
+}
+
+.social-media-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.social-media-title {
+    font-size: 1.6rem;
+    margin: 1.5rem;
+}
+
+.facebook-image, .twitter-image {
+    width: 2rem;
+    height: 2rem;
+}
+
+.facebook, .twitter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.twitter-text, .facebook-text {
+    margin-top: 0.5rem;
+    color: rgba(0, 0, 0, 0.42);
+}
+
+.twitter {
+    margin-left: 2rem;
+}
+
 @media (min-width: 1024px) {
     .hero {
         flex-wrap: nowrap;
@@ -343,5 +413,10 @@ body {
     
     .subscribe-input {
         width: 80%;
+    }
+
+    .footer {
+        flex-wrap: nowrap;
+        padding: 4rem 8rem;
     }
 }
