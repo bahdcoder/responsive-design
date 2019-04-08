@@ -196,6 +196,74 @@ body {
     margin-bottom: 3rem;
 }
 
+.email-section {
+    padding: 0rem 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #FAFAFA;
+}
+
+.subscribe-title {
+    font-size: 2rem;
+}
+
+.subscribe-description {
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 1.5rem;
+    margin-bottom: 5rem;
+}
+
+.subscribe-input {
+    border: 0.0625rem solid rgba(0, 0, 0, 0.4);
+    padding: 1.5rem;
+    box-sizing: border-box;
+    border-radius: 0.125rem;
+    margin-bottom: 2rem;
+    display: flex;
+    width: 100%;
+}
+
+.subscribe-input-text {
+    border: none;
+    flex-grow: 1;
+    background: transparent;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.subscribe-input-text:focus {
+    outline: none;
+}
+
+.subscribe-button {
+    background-color: transparent;
+    border: 0.125rem solid #0B41CD;
+    color: #0B41CD;
+    border-radius: 0.25rem;
+    padding: 0.4rem 2rem;
+    font-weight: 500;
+}
+
+.subscribe-button:focus {
+    outline: none;
+}
+
+.email-image-section {
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.email-image {
+    width: 100%;
+}
+
+.email-image-overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 74, 246, 0.49);
+    position: absolute;
+}
+
 @media (min-width: 1024px) {
     .hero {
         flex-wrap: nowrap;
@@ -262,5 +330,18 @@ body {
 
     .hero-2-content-title {
         font-size: 3rem;
+    }
+
+    .email-section {
+        padding: 0rem 0rem 0rem 8rem;
+        flex-wrap: nowrap;
+    }
+
+    .subscribe-form {
+        padding: 8rem 0rem;
+    }
+    
+    .subscribe-input {
+        width: 80%;
     }
 }
